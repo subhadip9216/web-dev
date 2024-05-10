@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+body{
+    background-color: rgb(241,242,244);
+}
+nav header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    background-color: rgb(255,255,255);
+}
+.left .logo img{
+    height: 50px;
+    width: 70px;
+    margin:10px 25px;
+}
+.left{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.left .search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+    width: 30vw;
+    background-color: rgb(240,245,255);
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: rgb(102,102,102);
+
+}
+.left .search input{
+    text-align: center;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.left .search i{
+margin-left: -16vw;
+margin-right: 5px;
+
+}
+.right{
+    margin-right: 4vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.right .login,.cart,.seller{
+    margin-right: 5vw;
+    font-size: 18px;
+    cursor: pointer;
+}
+.right .login,.cart,.seller i {
+    font-size: 18px;
+    padding: 3px;
+}
+.menu{
+    height: 20vh;
+    margin-top: 3vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(255,255,255);
+    font-size: 13px;
+}
+.menu .cat-header h3{
+    text-align: center;
+}
+.slider{
+    margin-top: 8vh;
+    height: 60vh;
+    width: 100%;
+    background: url("banner.webp");
+    background-repeat: no-repeat;
+
+}
+.electronics,.beauty {
+    margin-top: -15vh;
+    height: 50vh;
+    background-color:white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    overflow-y: hidden;
+    overflow-x: auto;
+    padding-top: 10vh;
+}
+.electronics .ele-item,.beauty .ele-item {
+    margin-top: -8vh;
+    height: 38vh;
+    width: 15vw;
+    background-color:white;
+    padding: 10vh;
+    margin-left: 5vw;
+    border: 0.5px solid rgb(224,224,224);
+    border-radius: 3px;
+}
+.electronics .ele-item img,.beauty .ele-item img{
+    height: 200px;
+    width: 200px;
+    margin:-7vh -4vw;
+    background: transparent;
+
+}
+.electronics .ele-item .sub-item h4,.beauty .ele-item .sub-item h4 {
+    margin:  7vh -4vw;
+    width: 15vw;
+    font-weight: 300;
+  
+}
+.electronics .ele-item .sub-item1 h4,.beauty .ele-item .sub-item1 h4{
+    margin-top: -6vh;
+font-weight: bold;
+}
+.slider h2{
+    position: absolute;
+    top: 89vh;
+    left: 5vw;
+}
+.beauty{
+    margin-top: 15vh;
+}
+.beauty-header{
+    position: absolute;
+    top: 153vh;
+    left: 5vw;
+}
+.footercontaint{
+    margin-top: 10vh;
+height: 50vh;
+width: 100%;
+background-color: rgb(33,33,33);
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+.footercontaint .subf{
+    display: flex;
+    flex-direction: column;
+}
+.footercontaint .subh .suf a{
+    text-decoration: none;
+    color: white;
+   
+    
+}
+.footercontaint .subh .suf{
+margin-top: 3vh;
+}
+.footercontaint .subh .suf a:hover{
+cursor: pointer;
+border-bottom: 0.5px white solid;
+}
+.footercontaint .subh h2{
+    color: rgb(117, 111, 111);
+    font-size: 18px;
+    font-weight: 300;
+}
+.copy{
+    width: 100%;
+    height: 5vh;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 100;
+    
+}
